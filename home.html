@@ -58,6 +58,16 @@
         font-size: 13px;
         font-weight: bold;
       }
+      .card {
+        background: #2f4f4f;
+        color: white;
+      }
+      .card-title {
+        color: #05c2c9 !important;
+      }
+      .card-subtitle {
+        color: #258e92 !important;
+      }
     </style>
   </head>
 
@@ -68,8 +78,11 @@
       id="mainNav"
     >
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          >Sky Developer</a
+        <a
+          class="navbar-brand js-scroll-trigger"
+          style="text-transform: uppercase"
+          href="#page-top"
+          >Sky Coder</a
         >
         <button
           class="navbar-toggler navbar-toggler-right"
@@ -93,7 +106,7 @@
               >
             </li> -->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio"
+              <a class="nav-link js-scroll-trigger" href="#portfolios"
                 >Portfolio</a
               >
             </li>
@@ -400,158 +413,239 @@
       </div>
     </section> -->
 
-    <section id="portfolio" class="mb-5 pt-4">
+    <section id="portfolios" class="mb-5 pt-4">
       <div class="container-fluid p-0">
         <h2 class="text-center mt-0">Projects</h2>
         <hr class="divider my-4" />
         <div class="row px-4">
           <!-- project - 1 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Inventory</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Point Of Sale
+                <h6 class="card-title text-center">
+                  Point Of Sale
+                </h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Inventory
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Sales and purchase product and maintain ledger.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <a
+                  href="https://pos-inventory.herokuapp.com/"
+                  target="__blank"
+                  class="text-left"
+                  >Visit Here</a
+                >
+                <a
+                  href="https://github.com/akashcsem/pos-inventory"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
           <!-- project - 2 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Ecommerce</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Online Book Order System
+                <h6 class="card-title text-center">Online Book Order System</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Ecommerce
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Sales and purchase product and maintain ledger.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <a
+                  href="https://soptoborno.herokuapp.com/"
+                  target="__blank"
+                  class="card-link text-left"
+                  >Visit Here</a
+                >
+                <a
+                  href="https://github.com/akashcsem/OnlineBookOrderSystem"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
           <!-- project - 3 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Management</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Project Management System
+                <h6 class="card-title text-center">
+                  Project Management System
+                </h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Management
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Study level or final year project management system.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <a
+                  href="https://project-handler.herokuapp.com/"
+                  target="__blank"
+                  class="card-link text-left"
+                  >Visit Here</a
+                >
+                <a
+                  href="https://github.com/akashcsem/ProjectManagementSystem"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
           <!-- project - 4 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Management</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Work Scheduler
+                <h6 class="card-title text-center">Work Scheduler</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Management
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Simple task management system that easier our daily work.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <a
+                  href="https://works-scheduler.herokuapp.com/"
+                  target="__blank"
+                  class="card-link text-left"
+                  >Visit Here</a
+                >
+                <a
+                  href="https://github.com/akashcsem/todo-app"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
           <!-- project - 5 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Education</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Periodic Table
+                <h6 class="card-title text-center">Periodic Table</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Education
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Desktop application, that help us to learn more about periodic
                   table and much more.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <a
+                  href="https://drive.google.com/open?id=1Ui7hkqWgPdm7M5nUFg3mS4TDnkww6Wdk"
+                  target="__blank"
+                  class="card-link text-left"
+                  >Download</a
+                >
+                <a
+                  href="https://github.com/akashcsem/my-chemistry"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
           <!-- project - 6 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Education</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Vector Solver (Android)
+                <h6 class="card-title text-center">Vector Solver</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Android App
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Android application, that help us to solve higher secondary
                   vector math.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
-              </div>
-            </div>
-          </div>
-          <!-- project - 7 -->
-          <div class="col-md-3 col-lg-3 my-2">
-            <div class="card">
-              <div class="card-body px-2">
-                <h6 class="card-title text-center">Calculator</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Age Calculator (Console)
-                </h6>
-                <p class="card-text text-center" style="font-size: 13px">
-                  Console application, that help us to calculate your age.
-                </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
-              </div>
-            </div>
-          </div>
-          <!-- project - 8 -->
-          <div class="col-md-3 col-lg-3 my-2">
-            <div class="card">
-              <div class="card-body px-2">
-                <h6 class="card-title text-center">Game</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Naming Game (Console)
-                </h6>
-                <p class="card-text text-center" style="font-size: 13px">
-                  Remind name that gues your name just have some fun.
-                </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <a
+                  href="https://drive.google.com/open?id=1Xxqd9pubuLdTTYIfyHCkgdUcTv52c9mP"
+                  target="__blank"
+                  class="card-link text-left"
+                  >Download</a
+                >
+                <a
+                  href="https://github.com/akashcsem/vector-solver-android"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
           <!-- project - 9 -->
-          <div class="col-md-3 col-lg-3 my-2">
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
             <div class="card">
               <div class="card-body px-2">
-                <h6 class="card-title text-center">Education</h6>
-                <h6 class="card-subtitle text-center mb-2 text-muted">
-                  Title: Vector Solver (Console)
+                <h6 class="card-title text-center">Vector Solver</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Console App
                 </h6>
                 <p class="card-text text-center" style="font-size: 13px">
                   Console application, that help us to solve higher secondary
                   vector math.
                 </p>
-                <a href="#" class="card-link text-left">Visit Link</a>
-                <a href="#" class="card-link float-right">Github Link</a>
+                <!-- <a href="#" class="card-link text-left">Visit Link</a> -->
+                <a
+                  href="https://github.com/akashcsem/vector-solver"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
               </div>
             </div>
           </div>
+          <!-- project - 7 -->
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
+            <div class="card">
+              <div class="card-body px-2">
+                <h6 class="card-title text-center">Age Calculator</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Console App
+                </h6>
+                <p class="card-text text-center" style="font-size: 13px">
+                  Console application, that help us to calculate your age.
+                </p>
+                <!-- <a href="#" class="card-link text-left">Visit Link</a> -->
+                <a
+                  href="https://github.com/akashcsem/age-calculator"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- project - 8 -->
+          <div class="col-md-4 col-lg-3 col-sm-6 my-2">
+            <div class="card">
+              <div class="card-body px-2">
+                <h6 class="card-title text-center">Naming Game</h6>
+                <h6 class="card-subtitle text-center text-success mb-2">
+                  Category: Game - Console
+                </h6>
+                <p class="card-text text-center" style="font-size: 13px">
+                  Remind name that gues your name just have some fun.
+                </p>
+                <!-- <a href="#" class="card-link text-left">Visit Link</a> -->
+                <a
+                  href="https://github.com/akashcsem/naming-game"
+                  target="__blank"
+                  class="card-link float-right"
+                  >Github Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- project - 9 -->
+
           <!-- project - 10 -->
         </div>
       </div>
@@ -785,7 +879,7 @@
     <footer class="bg-light py-5">
       <div class="container">
         <div class="small text-center text-muted">
-          Copyright &copy; 2019 - Sky Developer
+          Copyright &copy; 2019 - Sky Coder
         </div>
       </div>
     </footer>

@@ -21,6 +21,7 @@
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet" />
+  <link href="css/navbar-fixed.css" rel="stylesheet" />
 
   <style>
     .top-layer {
@@ -772,6 +773,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
 </body>
 
 </html>
